@@ -1,0 +1,404 @@
+.rectangle30 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  display: none;
+}
+.span15 {
+  font-weight: 900;
+}
+.cart-312 {
+  position: absolute;
+  height: 100%;
+  width: 45.43%;
+  top: 0;
+  left: 54.57%;
+  letter-spacing: 1.5em;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.line58,
+.line59 {
+  position: absolute;
+  height: 9.03%;
+  width: 34.86%;
+  top: 43.1%;
+  right: 65.43%;
+  bottom: 47.87%;
+  left: -0.29%;
+  border-top: 2px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.line59 {
+  width: 6.29%;
+  right: 56.57%;
+  left: 37.14%;
+}
+.cart-3-parent10,
+.menu26 {
+  position: absolute;
+  height: 100%;
+  top: 0;
+}
+.cart-3-parent10 {
+  width: 20.35%;
+  right: 0;
+  bottom: 0;
+  left: 79.65%;
+  cursor: pointer;
+}
+.menu26 {
+  width: 60.45%;
+  left: 39.55%;
+  letter-spacing: 1.5em;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.group-child31 {
+  position: absolute;
+  height: 56.65%;
+  width: 16.95%;
+  top: 14.78%;
+  right: 83.05%;
+  bottom: 28.57%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.menu-parent6 {
+  position: absolute;
+  height: 100%;
+  width: 10.29%;
+  top: 0;
+  right: 89.71%;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+  text-align: left;
+}
+.group-parent4 {
+  position: absolute;
+  height: 15%;
+  width: 89.58%;
+  top: 42.86%;
+  right: 5.21%;
+  bottom: 42.14%;
+  left: 5.21%;
+}
+.close7 {
+  position: absolute;
+  height: 100%;
+  width: 66.01%;
+  top: 0;
+  left: 33.99%;
+  letter-spacing: 1.5em;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.group-child32 {
+  position: absolute;
+  height: 79.35%;
+  width: 13.59%;
+  top: 2.28%;
+  right: 86.63%;
+  bottom: 18.37%;
+  left: -0.22%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.close-parent5 {
+  position: absolute;
+  height: 15%;
+  width: 10.49%;
+  top: 42.86%;
+  right: 44.77%;
+  bottom: 42.14%;
+  left: 44.74%;
+  cursor: pointer;
+  text-align: left;
+}
+.menu25 {
+  position: absolute;
+  height: 13.67%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 86.33%;
+  left: 0;
+}
+.line60,
+.line61 {
+  position: absolute;
+  width: 89.58%;
+  top: 26.17%;
+  right: 5.21%;
+  left: 5.21%;
+  border-top: 0.5px solid var(--color-lightgray);
+  box-sizing: border-box;
+  height: 0;
+}
+.line61 {
+  width: 11.88%;
+  right: 44.01%;
+  left: 44.11%;
+  border-top: 0.5px solid var(--color-darkslategray-200);
+}
+.m3 {
+  height: 100%;
+  width: 17.82%;
+  top: 0;
+  left: 0;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+}
+.e,
+.m3,
+.n {
+  position: absolute;
+}
+.e {
+  height: 100%;
+  width: 10.92%;
+  top: 0;
+  left: 17.82%;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+}
+.n {
+  width: 11.49%;
+  left: 28.74%;
+}
+.div86,
+.n,
+.t {
+  height: 100%;
+  top: 0;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+}
+.t {
+  position: absolute;
+  width: 7.47%;
+  left: 44.83%;
+}
+.div86 {
+  width: 8.05%;
+  left: 52.3%;
+}
+.div86,
+.h,
+.s3 {
+  position: absolute;
+}
+.s3 {
+  height: 100%;
+  width: 9.2%;
+  top: 0;
+  left: 60.34%;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+}
+.h {
+  width: 11.49%;
+  left: 69.54%;
+}
+.h,
+.i,
+.r {
+  height: 100%;
+  top: 0;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+}
+.i {
+  position: absolute;
+  width: 4.6%;
+  left: 81.03%;
+}
+.r {
+  width: 7.47%;
+  left: 85.63%;
+}
+.m-parent,
+.r,
+.t1 {
+  position: absolute;
+}
+.t1 {
+  height: 100%;
+  width: 7.47%;
+  top: 0;
+  left: 92.53%;
+  line-height: 150%;
+  font-weight: 300;
+  display: inline-block;
+}
+.m-parent {
+  height: 4.69%;
+  width: 9.06%;
+  top: 17.58%;
+  right: 45.47%;
+  bottom: 77.73%;
+  left: 45.47%;
+  text-align: center;
+  font-size: var(--h1-size);
+}
+.bugs-bunny {
+  height: 2.71%;
+  width: 87.5%;
+  top: 93.67%;
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+}
+.bugs-bunny,
+.div87,
+.div88,
+.icon37 {
+  position: absolute;
+  left: 0;
+}
+.div88 {
+  height: 2.71%;
+  width: 6.25%;
+  top: 97.29%;
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: inline-block;
+}
+.div87,
+.icon37 {
+  top: 0;
+}
+.icon37 {
+  height: 90.36%;
+  width: 100%;
+  right: 0;
+  bottom: 9.64%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.div87 {
+  height: 100%;
+  width: 11.49%;
+  right: 88.51%;
+  bottom: 0;
+}
+.div101,
+.div89,
+.div91,
+.div93,
+.div95,
+.div97,
+.div99,
+.group19 {
+  position: absolute;
+  height: 100%;
+  width: 11.49%;
+  top: 0;
+  right: 63.22%;
+  bottom: 0;
+  left: 25.29%;
+}
+.div101,
+.div91,
+.div93,
+.div95,
+.div97,
+.div99,
+.group19 {
+  right: 75.86%;
+  left: 12.64%;
+}
+.div101,
+.div93,
+.div95,
+.div97,
+.div99,
+.group19 {
+  right: 25.29%;
+  left: 63.22%;
+}
+.div101,
+.div95,
+.div97,
+.div99,
+.group19 {
+  right: 0;
+  left: 88.51%;
+}
+.div101,
+.div97,
+.div99,
+.group19 {
+  right: 12.64%;
+  left: 75.86%;
+}
+.div101,
+.div99,
+.group19 {
+  right: 50.57%;
+  left: 37.93%;
+}
+.div101,
+.group19 {
+  right: 37.93%;
+  left: 50.57%;
+}
+.group19 {
+  height: 64.84%;
+  width: 181.25%;
+  top: 30.08%;
+  right: -86.46%;
+  bottom: 5.08%;
+  left: 5.21%;
+  text-align: left;
+  font-size: var(--caption-size);
+  color: var(--color-darkslategray-200);
+}
+.image-removebg-preview-1-36 {
+  position: absolute;
+  height: 6.12%;
+  width: 5.21%;
+  top: 0.28%;
+  right: 94.79%;
+  bottom: 93.6%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.search-results {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--p-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--p);
+}

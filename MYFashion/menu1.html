@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./menu1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gotham Pro:wght@300;400;500;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="menu11">
+      <div class="menu12">
+        <div class="rectangle10"></div>
+        <div class="srch-parent5">
+          <b class="srch8" id="srchText">srch</b>
+          <div class="cart-3-parent6" id="groupContainer">
+            <div class="cart-38">
+              <b>cart </b>
+              <span class="span8">3</span>
+            </div>
+            <div class="line34"></div>
+            <div class="line35"></div>
+          </div>
+          <div class="close-parent4" id="groupContainer1">
+            <b class="close6">Close</b>
+            <img class="group-child6" alt="" src="./public/group-24.svg" />
+          </div>
+        </div>
+      </div>
+      <div class="group5">
+        <div class="line36"></div>
+        <div class="line37"></div>
+        <b class="woman6">Woman</b>
+        <b class="man6">Man</b>
+        <b class="kids6">Kids</b>
+        <b class="sale6">SALE</b>
+        <b class="stories6">Stories</b>
+        <div class="line38"></div>
+      </div>
+      <img
+        class="image-removebg-preview-2-15"
+        alt=""
+        src="./public/imageremovebgpreview-2-1@2x.png"
+      />
+    </div>
+
+    <script>
+      var srchText = document.getElementById("srchText");
+      if (srchText) {
+        srchText.addEventListener("click", function (e) {
+          window.location.href = "./search.html";
+        });
+      }
+      
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./cart.html";
+        });
+      }
+      
+      var groupContainer1 = document.getElementById("groupContainer1");
+      if (groupContainer1) {
+        groupContainer1.addEventListener("click", function (e) {
+          window.location.href = "./hero-slide-1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
