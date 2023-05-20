@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./search.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+
+    <style>
+        @font-face {
+            font-family: "Gotham Pro";
+            src: url("./font/GothamPro-Light.ttf");
+            font-weight: 300;
+        }
+        
+        @font-face {
+            font-family: "Gotham Pro";
+            src: url("GothamPro.ttf");
+            font-weight: 400;
+        }
+        
+        @font-face {
+            font-family: "Gotham Pro";
+            src: url("./font/GothamPro-Medium.ttf");
+            font-weight: 500;
+        }
+        
+        @font-face {
+            font-family: "Gotham Pro";
+            src: url("./font/GothamPro-Bold.ttf");
+            font-weight: 700;
+        }
+        
+        @font-face {
+            font-family: "Gotham Pro";
+            src: url("./font/GothamPro-Black.ttf");
+            font-weight: 900;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="search">
+        <div class="menu27">
+            <div class="rectangle31"></div>
+            <div class="group-parent5">
+                <div class="cart-3-parent11" id="groupContainer">
+                    <div class="cart-313">
+                        <b>cart </b>
+                        <span class="span16">3</span>
+                    </div>
+                    <div class="line62"></div>
+                    <div class="line63"></div>
+                </div>
+                <div class="menu-parent7" id="groupContainer1">
+                    <b class="menu28">MENU</b>
+                    <img class="group-child33" alt="" src="./public/group-25.svg" />
+                </div>
+            </div>
+            <div class="close-parent6" id="groupContainer3">
+                <b class="close8">Close</b>
+                <img class="group-child34" alt="" src="./public/group-26.svg" />
+            </div>
+        </div>
+        <div class="line64"></div>
+        <div class="what-are-you">What are you looking for?</div>
+        <img class="image-removebg-preview-1-37" alt="" src="./public/imageremovebgpreview-1-3@2x.png" id="imageRemovebgPreview13" />
+    </div>
+
+    <script>
+        var groupContainer = document.getElementById("groupContainer");
+        if (groupContainer) {
+            groupContainer.addEventListener("click", function(e) {
+                window.location.href = "./cart.html";
+            });
+        }
+
+        var groupContainer1 = document.getElementById("groupContainer1");
+        if (groupContainer1) {
+            groupContainer1.addEventListener("click", function(e) {
+                window.location.href = "./menu1.html";
+            });
+        }
+
+        var groupContainer3 = document.getElementById("groupContainer3");
+        if (groupContainer3) {
+            groupContainer3.addEventListener("click", function(e) {
+                window.location.href = "/";
+            });
+        }
+
+        var imageRemovebgPreview13 = document.getElementById("imageRemovebgPreview13");
+        if (imageRemovebgPreview13) {
+            imageRemovebgPreview13.addEventListener("click", function(e) {
+                window.location.href = "/";
+            });
+        }
+    </script>
+</body>
+
+</html>
