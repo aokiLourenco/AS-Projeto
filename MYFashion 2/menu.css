@@ -166,9 +166,10 @@
     transition: 0.3s;
 }
 
-.woman :hover {
+
+/* .woman :hover {
     opacity: 1;
-}
+} */
 
 .man {
     width: 17.97%;
@@ -177,9 +178,10 @@
     transition: 0.3s;
 }
 
-.woman :hover {
+
+/* .woman :hover {
     opacity: 1;
-}
+} */
 
 .kids,
 .man,
@@ -192,10 +194,6 @@
     transition: 0.3s;
 }
 
-.woman :hover {
-    opacity: 1;
-}
-
 .kids {
     position: absolute;
     width: 19.06%;
@@ -204,18 +202,21 @@
     transition: 0.3s;
 }
 
-.kids :hover {
+
+/* .kids :hover {
     opacity: 1;
-}
+} */
 
 .sale,
 .stories {
     top: 66.27%;
 }
 
+
+/* 
 .stories :hover {
     opacity: 1;
-}
+} */
 
 .sale {
     position: absolute;
@@ -224,9 +225,10 @@
     transition: 0.3s;
 }
 
-.sale :hover {
+
+/* .sale :hover {
     opacity: 1;
-}
+} */
 
 .stories {
     width: 30.48%;
@@ -234,9 +236,10 @@
     transition: 0.3s;
 }
 
-.stories :hover {
+
+/* .stories :hover {
     opacity: 1;
-}
+} */
 
 .group,
 .line8,
