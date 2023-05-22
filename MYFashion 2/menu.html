@@ -68,7 +68,7 @@
             <b class="man">Man</b>
             <b class="kids">Kids</b>
             <b class="sale">SALE</b>
-            <b class="stories">Stories</b>
+            <b class="stories" id="storiesText">Stories</b>
             <div class="line8"></div>
         </div>
         <img class="image-removebg-preview-1-2" alt=" " src="./public/imageremovebgpreview-1-2@2x.png " id="imageRemovebgPreview12 " />
@@ -100,6 +100,13 @@
         if (imageRemovebgPreview12) {
             imageRemovebgPreview12.addEventListener("click ", function(e) {
                 window.location.href = "./index.html ";
+            });
+        }
+
+        var storiesText = document.getElementById("storiesText");
+        if (storiesText) {
+            storiesText.addEventListener("click", function(e) {
+                window.location.href = "./stories.html";
             });
         }
     </script>
