@@ -68,7 +68,7 @@
             <b class="man6">Man</b>
             <b class="kids6">Kids</b>
             <b class="sale6">SALE</b>
-            <b class="stories6">Stories</b>
+            <b class="stories6" id="storiesText">Stories</b>
             <div class="line38"></div>
         </div>
         <img class="image-removebg-preview-2-15" alt="" src="./public/imageremovebgpreview-2-1@2x.png" />
@@ -93,6 +93,13 @@
         if (groupContainer1) {
             groupContainer1.addEventListener("click", function(e) {
                 window.location.href = "./index.html";
+            });
+        }
+
+        var storiesText = document.getElementById("storiesText");
+        if (storiesText) {
+            storiesText.addEventListener("click", function(e) {
+                window.location.href = "./stories.html";
             });
         }
     </script>
