@@ -2,7 +2,7 @@
     position: absolute;
     top: 0;
     left: 960px;
-    width: 960px;
+    width: 100%;
     height: 1024px;
     object-fit: cover;
 }
@@ -11,9 +11,9 @@
     position: absolute;
     top: 452px;
     left: 882px;
-    width: 155.26px;
+    width: 100%;
     height: 120px;
-    display: none;
+    it display: none;
 }
 
 .shop2,
@@ -209,7 +209,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 1920px;
+    width: 100%;
     height: 140px;
 }
 
