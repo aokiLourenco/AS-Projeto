@@ -55,6 +55,7 @@
 .icon29 {
   position: absolute;
   width: 400px;
+  
 }
 .div61 {
   top: 704px;
@@ -624,4 +625,28 @@
   font-size: var(--p-size);
   color: var(--color-darkslategray-100);
   font-family: var(--p);
+}
+.div61:hover,
+.div63:hover,
+.div65:hover,
+.div68:hover,
+.div70:hover,
+.div72:hover,
+.div75:hover,
+.div77:hover,
+.div79:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.div61,
+.div63,
+.div65,
+.div68,
+.div70,
+.div72,
+.div75,
+.div77,
+.div79 {
+  transition: transform 0.3s ease;
 }

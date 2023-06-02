@@ -854,3 +854,18 @@
   color: var(--color-darkslategray-100);
   font-family: var(--p);
 }
+.div28:hover,
+.div30:hover,
+.div32:hover,
+.div34:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.div28,
+.div30,
+.div32,
+.div34{
+  transition: all 0.5s ease-in-out;
+}
