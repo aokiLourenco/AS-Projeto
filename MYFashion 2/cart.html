@@ -186,7 +186,7 @@
             <img class="arrow-right-icon" alt="" src="./public/arrow-right.svg" />
 
             <div class="checkout-now">
-               <a href = "payment.html" >Checkout now </a> 
+               <a id="checkout1" >Checkout now </a> 
             </div>
         </div>
         <div class="product-parent">
@@ -231,6 +231,13 @@
         if (imageRemovebgPreview13) {
             imageRemovebgPreview13.addEventListener("click", function(e) {
                 window.location.href = "./index.html";
+            });
+        }
+
+        var checkout1 = document.getElementById("checkout1");
+        if (checkout1) {
+            checkout1.addEventListener("click", function(e) {
+                window.location.href = "./payment.html";
             });
         }
     </script>
