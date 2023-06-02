@@ -71,7 +71,7 @@
             <b class="stories6" id="storiesText">Stories</b>
             <div class="line38"></div>
         </div>
-        <img class="image-removebg-preview-2-15" alt="" src="./public/imageremovebgpreview-2-1@2x.png" />
+        <img class="image-removebg-preview-2-15" alt="" id="imgremovebg1" src="./public/imageremovebgpreview-2-1@2x.png" />
     </div>
 
     <script>
@@ -100,6 +100,20 @@
         if (storiesText) {
             storiesText.addEventListener("click", function(e) {
                 window.location.href = "./stories.html";
+            });
+        }
+
+        var groupContainer1 = document.getElementById("groupContainer1");
+        if (groupContainer1) {
+            groupContainer1.addEventListener("click", function(e) {
+                window.location.href = "./index.html";
+            });
+        }
+
+        var imgremovebg1 = document.getElementById("imgremovebg1");
+        if (imgremovebg1) {
+            imgremovebg1.addEventListener("click", function(e) {
+                window.location.href = "./index.html";
             });
         }
     </script>
