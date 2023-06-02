@@ -101,12 +101,12 @@
             <div class="delete-all">Delete all</div>
             <img class="path-icon8" alt="" src="./public/path.svg" />
         </div>
-        <div class="rectangle-parent6">
+        <div class="rectangle-parent6" id="checkout1">
             <div class="rectangle22"></div>
             <img class="arrow-right-icon" alt="" src="./public/arrow-right.svg" />
 
             <div class="checkout-now">
-               <a href = "payment.html" >Checkout now </a> 
+               <b>Checkout now </b> 
             </div>
         </div>
         <div class="product-parent">
@@ -151,6 +151,13 @@
         if (imageRemovebgPreview13) {
             imageRemovebgPreview13.addEventListener("click", function(e) {
                 window.location.href = "./index.html";
+            });
+        }
+
+        var checkout1 = document.getElementById("checkout1");
+        if (checkout1) {
+            checkout1.addEventListener("click", function(e) {
+                window.location.href = "./payment.html";
             });
         }
     </script>
