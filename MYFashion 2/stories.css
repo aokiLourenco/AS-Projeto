@@ -671,8 +671,10 @@
   left: 56%;
   transform: translate(-50%, -50%);
   padding: 12px 24px;
-  font-size: 16px;
-  background-color: #7bc57f;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: aliceblue;
+  background-color: #555555;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -699,5 +701,6 @@
   color: rgb(10, 10, 10);
   font-size: 18px;
   font-family: "Gotham Pro", sans-serif;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(157, 230, 253, 0.5);
+  border: 0;
 }
