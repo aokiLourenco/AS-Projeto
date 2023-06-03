@@ -121,9 +121,13 @@
                 <div class="selected">SELECTED</div>
                 <div class="line43"></div>
             </div>
+            <button class="add-picture-button" onclick="addPicture()">Add Your Story</button>
+            <input type="file" id="fileInput" style="display: none;" accept="image/*">
+            <input class="story-text-input" type="text" id="textInput" placeholder="Enter description">
         </div>
-        <div class="stories-child"></div>
-        <div class="rectangle-parent1">
+       
+        <div class="stories-child" id="storiesChild"></div>
+        <!-- <div class="rectangle-parent1">
             <img class="rectangle-icon4" alt="" src="./public/rectangle4@2x.png" />
 
             <b class="high-voltage">HIGH VOLTAGE</b>
@@ -152,7 +156,7 @@
 
             <b class="tailoring">TAILORING</b>
             <div class="spring-summer-man-all">Spring-summer. Man. All time.</div>
-        </div>
+        </div> -->
         <img class="image-removebg-preview-1-31" alt="" src="./public/imageremovebgpreview-1-3@2x.png" id="imageRemovebgPreview13" />
 
         <img class="image-removebg-preview-w-11" alt="" src="./public/imageremovebgpreview-w-1@2x.png" />
@@ -200,7 +204,97 @@
                 window.location.href = "./index.html";
             });
         }
+        var srchText = document.getElementById("srchText");
+        function addPicture() {
+            var fileInput = document.getElementById("fileInput");
+            var textInput = document.getElementById("textInput");
+            fileInput.addEventListener("change", function(e) {
+                var file = e.target.files[0];
+
+                if (file) {
+                // Create a FileReader object to read the file
+                var reader = new FileReader();
+
+                reader.onload = function(event) {
+                    var img = new Image();
+                    img.onload = function() {
+                    var targetWidth = 1500; // Set the desired width for the resized image
+                    var targetHeight = 1000; // Set the desired height for the resized image
+                    var canvas = document.createElement("canvas");
+                    var ctx = canvas.getContext("2d");
+
+                    // Calculate the aspect ratio of the original image
+                    var aspectRatio = img.width / img.height;
+
+                    // Calculate the dimensions for resizing while maintaining the aspect ratio
+                    var width, height;
+                    if (aspectRatio > 1) {
+                        width = targetWidth;
+                        height = width / aspectRatio;
+                    } else {
+                        height = targetHeight;
+                        width = height * aspectRatio;
+                    }
+
+                    // Adjust the canvas size dynamically based on the aspect ratio
+                    canvas.width = width;
+                    canvas.height = height;
+
+                    // Draw the image on the canvas with the desired dimensions
+                    ctx.drawImage(img, 0, 0, width, height);
+
+                    // Create a new image element with the resized image
+                    var newImage = document.createElement("img");
+                    newImage.src = canvas.toDataURL("image/jpeg"); // You can specify the desired image format here
+                    newImage.classList.add("story-image");
+
+                    var text = document.getElementById("textInput").value;
+                    var newText = document.createElement("div");
+                    newText.classList.add("story-text");
+                    newText.innerHTML = text;
+
+                    
+
+                    // Check if the image already exists
+                    var images = storiesChild.getElementsByClassName("story-image");
+                    var isImageExist = false;
+                    for (var i = 0; i < images.length; i++) {
+                        if (images[i].src === newImage.src) {
+                        isImageExist = true;
+                        break;
+                        }
+                    }
+
+                    if (!isImageExist) {
+                        // Add the new image to the storiesChild element
+                        var container = document.createElement("div");
+                        container.classList.add("story-container");
+                        container.appendChild(newImage);
+                        container.appendChild(newText);
+
+                        storiesChild.appendChild(container);
+
+                        // Add a blank space after the new image
+                        var blankSpace = document.createElement("div");
+                        blankSpace.classList.add("blank-space");
+                        storiesChild.appendChild(blankSpace);
+
+                        // Scroll to the bottom of the storiesChild element
+                        storiesChild.scrollTop = storiesChild.scrollHeight;
+                        textInput.value = "";
+                    }
+                    };
+                    img.src = event.target.result;
+                };
+
+                reader.readAsDataURL(file);
+                }
+            });
+            fileInput.click();
+        }
+
     </script>
 </body>
 
 </html>
+

@@ -448,11 +448,17 @@
 .stories-child {
   position: absolute;
   top: 629px;
+  /* max-height: 400px; */
+  overflow-y: auto;
   left: calc(50% - 640px);
   border-top: 0.5px solid var(--color-lightgray);
   box-sizing: border-box;
-  width: 1280px;
-  height: 0;
+  width: 1500px;
+  height: 1000px;
+}
+
+.blank-space {
+  height: 180px; /* Adjust the height to set the desired spacing */
 }
 .rectangle-icon4 {
   position: absolute;
@@ -654,4 +660,44 @@
   font-size: var(--font-size-33xl);
   color: var(--color-black);
   font-family: var(--p);
+}
+
+.add-picture-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  top: 120%;
+  left: 56%;
+  transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #7bc57f;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.story-container {
+  position: relative;
+}
+
+.story-text {
+  position: absolute;
+  top: 100%;
+  left: 10px;
+  color: rgb(19, 18, 18);
+  font-size: 18px;
+  font-family: "Gotham Pro", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.story-text-input {
+  position: absolute;
+  top: 125%;
+  left: 70%;
+  color: rgb(10, 10, 10);
+  font-size: 18px;
+  font-family: "Gotham Pro", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
