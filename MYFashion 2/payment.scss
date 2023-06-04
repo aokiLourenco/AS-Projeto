@@ -233,6 +233,9 @@ input[type="text"] {
   justify-content: center;
   flex-direction: column;
   padding: 60px 0 40px 0;
+  font-family: "Gotham Pro";
+  src: url("./font/GothamPro.ttf");
+  font-weight: 400;
 }
 
 .payment {
