@@ -390,6 +390,11 @@
   max-height: 100%;
   object-fit: cover;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-removebg-preview-1-36:hover {
+  transform: scale(1.1);
 }
 .search-results {
   position: relative;

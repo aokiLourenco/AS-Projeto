@@ -614,6 +614,7 @@
   width: 372px;
   height: 245.98px;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 .catalog {
   position: relative;
@@ -649,4 +650,8 @@
 .div77,
 .div79 {
   transition: transform 0.3s ease;
+}
+
+.image-removebg-preview-1-35:hover {
+  transform: scale(1.1);
 }

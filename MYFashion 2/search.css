@@ -210,6 +210,10 @@
     max-height: 100%;
     object-fit: cover;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.image-removebg-preview-1-37:hover {
+    transform: scale(1.1);
 }
 
 .search {
@@ -237,10 +241,4 @@
       opacity: 1;
       transform: translateY(0);
     }
-  }
-.menu28{
-    transition: transform 0.3s ease-in-out;
-}
-.menu28:hover{
-    transform: scale(1.1);
 }

@@ -500,6 +500,7 @@
   left: calc(50% - 418px);
   width: 400px;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 .beyond-nature {
   position: absolute;
@@ -535,6 +536,7 @@
   width: 400px;
   height: 650px;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 .traveler {
   position: absolute;
@@ -562,6 +564,7 @@
   left: calc(50% - 440px);
   width: 640px;
   height: 650px;
+  transition: transform 0.3s ease-in-out;
 }
 .rectangle-icon7 {
   top: 0;
@@ -641,7 +644,13 @@
   max-height: 100%;
   object-fit: cover;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
+
+.image-removebg-preview-1-31:hover {
+  transform: scale(1.1);
+}
+
 .image-removebg-preview-w-11 {
   position: absolute;
   top: 4377px;
@@ -717,7 +726,9 @@
   transition: transform 0.3s ease-in-out;
 }
 
-
+.rectangle-icon6:hover,
+.rectangle-icon5:hover,
+.rectangle-icon7:hover,
 .stories-parent:hover,
 .group-parent:hover,
 .rectangle-parent:hover,
