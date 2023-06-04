@@ -422,3 +422,29 @@
   color: var(--color-gray-200);
   font-family: var(--p);
 }
+
+.menu15,
+.stories-parent,
+.group-parent,
+.rectangle-parent,
+.rectangle-group,
+.rectangle-container,
+.selected-parent,
+.rectangle-parent2,
+.rectangle-parent3,
+.rectangle-parent4 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu15:hover,
+.stories-parent:hover,
+.group-parent:hover,
+.rectangle-parent:hover,
+.rectangle-group:hover,
+.rectangle-container:hover,
+.selected-parent:hover,
+.rectangle-parent2,
+.rectangle-parent3,
+.rectangle-parent4 {
+  transform: scale(1.1);
+}
