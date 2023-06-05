@@ -79,6 +79,7 @@
             <div class="div103">$15</div>
         </div>
         <div class="menu29">
+            <img class="login" src="./public/icons8-person-64.png" alt="" id="loginbruh">
             <div class="rectangle33"></div>
             <div class="srch-parent12">
                 <b class="srch15" id="srchText">srch</b>
@@ -133,6 +134,13 @@
         if (groupContainer1) {
             groupContainer1.addEventListener("click", function(e) {
                 window.location.href = "./menu1.html";
+            });
+        }
+
+        var loginbruh = document.getElementById("loginbruh");
+        if (loginbruh) {
+            loginbruh.addEventListener("click", function(e) {
+                window.location.href = "./login.html";
             });
         }
     </script>
