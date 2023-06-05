@@ -53,6 +53,16 @@
 
 /* -------------------------------------------------------------------------------------- */
 
+.login {
+    position: absolute;
+    top: 840px;
+    left: 60px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.login:hover {
+    transform: scale(1.2);
+  }
 .img-1-icon {
     position: absolute;
     top: 0;
