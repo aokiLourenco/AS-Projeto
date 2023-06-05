@@ -18,11 +18,16 @@
 
 .hero-slide-2-child {
     position: absolute;
-    top: 934px;
+    top: 860px;
     left: 418px;
     width: 122px;
     height: 30px;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hero-slide-2-child {
+    transform: scale(1.1);
 }
 
 .icon1 {
@@ -213,12 +218,17 @@
 }
 
 .shop1 {
-    top: 943px;
+    top: 875px;
     left: 908px;
     letter-spacing: 1.5em;
     line-height: 150%;
     text-transform: uppercase;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.shop1:hover {
+    transform: scale(1.1);
 }
 
 .image-removebg-preview-1-11 {

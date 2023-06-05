@@ -309,7 +309,13 @@
   text-align: left;
   font-size: var(--p-size);
   color: var(--color-darkslategray-100);
+  transition: transform 0.3s ease-in-out;
 }
+
+.main-page-group:hover {
+  transform: scale(1.1);
+}
+
 .shopping-cart-parent {
   position: absolute;
   top: 180px;
@@ -561,6 +567,7 @@
   line-height: 150%;
   font-weight: 500;
 }
+
 .rectangle-parent6 {
   position: absolute;
   top: 1536px;
@@ -569,7 +576,13 @@
   height: 52px;
   font-size: var(--p-size);
   color: var(--color-white);
+  transition: transform 0.3s ease;
 }
+
+.rectangle-parent6:hover {
+  transform: scale(1.1);
+}
+
 .amount,
 .colour,
 .product,
@@ -629,6 +642,7 @@
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
+  transition: transform 0.3s ease-in-out;
 }
 .image-removebg-preview-w-12 {
   position: absolute;
@@ -648,4 +662,8 @@
   font-size: var(--caption-size);
   color: var(--color-darkslategray-200);
   font-family: var(--p);
+}
+
+.image-removebg-preview-1-32:hover {
+  transform: scale(1.1);
 }

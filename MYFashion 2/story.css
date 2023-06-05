@@ -386,7 +386,13 @@
   width: 400px;
   height: 542px;
   object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
+
+.image-removebg-preview-1-3:hover {
+  transform: scale(1.1);
+}
+
 .beyondimg-icon3,
 .image-removebg-preview-1-3 {
   left: 540px;
@@ -421,4 +427,30 @@
   font-size: var(--caption-size);
   color: var(--color-gray-200);
   font-family: var(--p);
+}
+
+.menu15,
+.stories-parent,
+.group-parent,
+.rectangle-parent,
+.rectangle-group,
+.rectangle-container,
+.selected-parent,
+.rectangle-parent2,
+.rectangle-parent3,
+.rectangle-parent4 {
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu15:hover,
+.stories-parent:hover,
+.group-parent:hover,
+.rectangle-parent:hover,
+.rectangle-group:hover,
+.rectangle-container:hover,
+.selected-parent:hover,
+.rectangle-parent2,
+.rectangle-parent3,
+.rectangle-parent4 {
+  transform: scale(1.1);
 }

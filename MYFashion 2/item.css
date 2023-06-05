@@ -157,10 +157,16 @@
   left: 0;
   width: 320px;
   height: 52px;
+  transition: transform 0.3s ease-in-out;
 }
+
 .rectangle24 {
   background-color: var(--color-darkslategray-100);
   width: 270px;
+}
+
+.rectangle24:hover {
+  transform: scale(1.1);
 }
 .add-to-cart,
 .b {
@@ -420,6 +426,11 @@
   width: 620px;
   height: 54px;
   font-family: var(--font-poppins);
+  transition: transform 0.3s ease-in-out;
+}
+
+.rectangle-parent9:hover {
+  transform: scale(1.1);
 }
 .sustainable-aproved-by {
   position: absolute;
@@ -834,7 +845,13 @@
   overflow: hidden;
   max-height: 100%;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
 }
+
+.image-removebg-preview-1-33:hover {
+  transform: scale(1.1);
+}
+
 .image-removebg-preview-w-13 {
   position: absolute;
   top: 2551px;

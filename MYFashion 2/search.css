@@ -210,6 +210,10 @@
     max-height: 100%;
     object-fit: cover;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.image-removebg-preview-1-37:hover {
+    transform: scale(1.1);
 }
 
 .search {
@@ -222,4 +226,19 @@
     font-size: var(--p-size);
     color: var(--color-darkslategray-100);
     font-family: var(--p);
+}
+.what-are-you form {
+    animation: cascade 2.0s ease forwards;
+    opacity: 0;
+  }
+
+  @keyframes cascade {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
 }

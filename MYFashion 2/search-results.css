@@ -390,6 +390,11 @@
   max-height: 100%;
   object-fit: cover;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-removebg-preview-1-36:hover {
+  transform: scale(1.1);
 }
 .search-results {
   position: relative;
@@ -401,4 +406,11 @@
   font-size: var(--p-size);
   color: var(--color-darkslategray-100);
   font-family: var(--p);
+}
+.group19 .icon37 {
+  transition: transform 0.5s ease;
+}
+
+.group19 .icon37:hover {
+  transform: scale(1.1);
 }
