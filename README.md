@@ -15,7 +15,7 @@ Webapp de venda de peças de roupa sustentável.
 
 **Controlo de versões:** [GitHub repository 📁](https://github.com/aokiLourenco/AS-Projeto)
 
-[MYFashion website ☕](https://aokiLourenco.github.io/AS-Projeto)
+[MYFashion website ☕](https://aokiLourenco.github.io/AS-Projeto/MYFashion 2)
 
 ---
 
