@@ -17,7 +17,7 @@ Webapp de venda de peças de roupa sustentável.
 
 [MYFashion website ☕](https://aokiLourenco.github.io/AS-Projeto/MYFashion%202)
 
-**NOTA:** O login não é funcional assim tendo se voltar a a home page manualmente. Na SHOP só é possível selecionar o primeiro artigo de todos e no Stories só é possível visualizar as fotos do segundo utilizador.
+**NOTA:** O login não é funcional assim tendo de voltar à home page manualmente. Na SHOP só é possível selecionar o primeiro artigo de todos e na página dos Stories só é possível visualizar as fotos do segundo utilizador.
 
 ---
 
