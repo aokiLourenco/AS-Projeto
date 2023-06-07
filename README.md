@@ -2,7 +2,7 @@
 
 ## MYFashion
 
-**Ferramenta de gestão de grupo** - [Jira 📘](https://uadegree.atlassian.net/jira/)
+**Ferramenta de gestão de grupo** - [Jira 📘](https://uadegree.atlassian.net/jira/software/projects/AS/boards/1/backlog)
 
 **Protótipo exploratório** - [Figma ✏️](https://www.figma.com/file/FCMZpE0fa8lTDlhtD0iVOx/My-Fashion?type=design&node-id=0-1&t=XLaFihn5qy5Ydb7Q-0
 )
@@ -16,6 +16,8 @@ Webapp de venda de peças de roupa sustentável.
 **Controlo de versões:** [GitHub repository 📁](https://github.com/aokiLourenco/AS-Projeto)
 
 [MYFashion website ☕](https://aokiLourenco.github.io/AS-Projeto/MYFashion%202)
+
+**NOTA:** O login não é funcional assim tendo se voltar a a home page manualmente. Na SHOP só é possível selecionar o primeiro artigo de todos e no Stories só é possível visualizar as fotos do segundo utilizador.
 
 ---
 
