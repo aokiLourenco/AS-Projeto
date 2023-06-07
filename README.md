@@ -15,9 +15,7 @@ Webapp de venda de peças de roupa sustentável.
 
 **Controlo de versões:** [GitHub repository 📁](https://github.com/aokiLourenco/AS-Projeto)
 
-[MYFashion website ☕](https://aokiLourenco.github.io/AS-Projeto/MYFashion%202)
-
-**NOTA:** O login não está a funciona, apenas existindo a página mas n é possivel dar login. Na página shop também só é possível inspecionar o primeiro item de todos. Na página dos stories só é possível ver os stories do segundo utilizador.
+[MYFashion website ☕](https://aokiLourenco.github.io/AS-Projeto)
 
 ---
 
